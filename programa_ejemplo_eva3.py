@@ -1,6 +1,7 @@
 usuarios= {}
-op = 1
-while op < 3:
+op = 0
+contador = 1
+while op != 3:
     usuario_ok=False
     print("1._iniciar sesion:")
     print("2._Registrarse:")
